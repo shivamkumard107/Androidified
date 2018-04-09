@@ -14,10 +14,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.AdapterView;
-import android.widget.GridView;
-import android.widget.ImageView;
-
 
 
 public class MainActivity extends AppCompatActivity
@@ -90,15 +86,7 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if(id==R.id.about_team){
+        if(id==R.id.about_team){
             Log.v("About Us", "About Us section to be opened");
             Intent in = new Intent(this, about_team.class);
             startActivity(in);

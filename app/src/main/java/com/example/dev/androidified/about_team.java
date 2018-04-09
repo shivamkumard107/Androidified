@@ -1,24 +1,13 @@
 package com.example.dev.androidified;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.view.ViewCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.ScrollView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class about_team extends AppCompatActivity {
@@ -56,13 +45,13 @@ public class about_team extends AppCompatActivity {
            "yash.gautam0003@gmail.com"};
     String[] facebookLink = {
             "https://www.facebook.com/shivam.kumar.167",
-            "https://www.fb.com/d3v3sh5ingh",
+            "https://www.facebook.com/d3v3sh5ingh",
             "http://www.facebook.com/mohit.ranjan.560",
             "https://www.facebook.com/hg2199",
             "https://www.facebook.com/shivanggarg1998",
             null,
             "https://www.facebook.com/sameep.yadav.3",
-            "http://www.facebook.com/shivanggarg1998"};
+            "https://www.facebook.com/yash.gautam.1221"};
 
 
     @Override
